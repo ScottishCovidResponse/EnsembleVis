@@ -1,4 +1,6 @@
 
+import numpy as np
+
 # band depth generalizes median (or centrality) to manifolds:
 # https://www.tandfonline.com/doi/abs/10.1198/jcgs.2011.09224
 

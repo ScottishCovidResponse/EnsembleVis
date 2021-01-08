@@ -5,12 +5,13 @@ let
     pandas
     h5py
     scikitlearn
+    pytest
   ]);
 in mkShell {
   buildInputs = [
     pythonEnv
   ];
-  shellHook = ''
-    python
-  '';
+  #shellHook = ''
+    #python
+  #'';
 }
