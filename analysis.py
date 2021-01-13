@@ -5,6 +5,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
 # functions to support analysis.
+# based on https://colab.research.google.com/drive/1LSuGoX7ICX6jxOgGqXO5wLjM6GujsuDD
 
 def maxinfections(d):
   return np.amax(d, axis=1)
